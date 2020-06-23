@@ -1,0 +1,18 @@
+set(BINARY_TOOLS_LIST)
+
+set(TMP_PACKAGING_DIR "@CMAKE_BINARY_DIR@/FLAWS_Tools-Binaries-@FLAWS_TOOLS_SUPERBUILD_VERSION@")
+file(MAKE_DIRECTORY ${TMP_PACKAGING_DIR})
+
+if (NOT WIN32)
+  foreach(binary_file ${BINARY_TOOLS_LIST})
+    file(COPY "@CMAKE_BINARY_DIR@/bin/${binary_file}" DESTINATION "${TMP_PACKAGING_DIR}")
+  endforeach()
+
+  execute_process(
+    WORKING_DIRECTORY @CMAKE_BINARY_DIR@
+    COMMAND zip -r FLAWS_Tools-Binaries-@FLAWS_TOOLS_SUPERBUILD_VERSION@.zip FLAWS_Tools-Binaries-@FLAWS_TOOLS_SUPERBUILD_VERSION@)
+else()
+  foreach(binary_file ${BINARY_TOOLS_LIST})
+    file(COPY "@CMAKE_BINARY_DIR@/bin/Release/${binary_file}.exe" DESTINATION "${TMP_PACKAGING_DIR}")
+  endforeach()
+endif()

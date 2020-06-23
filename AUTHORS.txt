@@ -1,0 +1,8 @@
+Jeremy Beaumont (1,2): Core development
+
+Other Acknowledgements:
+Thank you also to Jason Dowling (1), Parnesh Raniga (1), Jurgen Fripp (1), Giulio Gambarota (2) and Oscar Acosta (2) for advice and support.
+We would also like to thank the "Region Bretagne" that partially funded this work.
+
+(1) The Australian e-Health Research Centre, CSIRO, Herston, Queensland, Australia
+(2) Univ Rennes, Inserm, LTSI-UMR1099, F-35000 Rennes, France

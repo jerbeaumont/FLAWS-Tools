@@ -1,0 +1,16 @@
+*~
+*.swp
+*.pyc
+*.aps
+*.user
+*.orig
+*.DS_Store
+*.autosave
+*.directory
+
+CMakeFiles
+CMakeLists.txt.user.*
+External-Projects
+config.txt
+build
+CMakeCache.txt
