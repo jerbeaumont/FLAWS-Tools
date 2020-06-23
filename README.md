@@ -84,11 +84,12 @@ FLAWS-Tools C++ programs are available as a superproject. To build these program
 - Build using your environment (building works with make or ninja).
 
 An example of command lines to build FLAWS-Tools is provided below (to run in the folder in which you want to install FLAWS-Tools):
-'''bash
+
+```bash
 git clone https://github.com/jerbeaumont/FLAWS-Tools.git
 cd FLAWS-Tools
 mkdir build
 cd build
 cmake ../src -DCMAKE_BUILD_TYPE=Release
 make
-'''
+```
