@@ -38,9 +38,12 @@ If you use this program for scientific research, we would appreciate if you coul
 ## References
 
 (1) Tanner et al. Fluid and white matter suppression with the MP2RAGE sequence. *J Magn Reson Imaging* 2012; 35:1063-1070.
+
 (2) Beaumont et al. High contrast T1-weighted MRI with fluid and white matter suppression using MP2RAGE. In *IEEE Int Symp Biomed Imaging*, Venice, Italy; 2019.
+
 (3) Beaumont et al. Multi T1-weighted contrast MRI with fluid and white matter suppression at 1.5T. *Magn Reson Imaging* 2019; 63:217-225.
-(4) Paper submitted to MRM. To update before the release of the code.
+
+(4) Beaumont et al. High resolution multi T1-weighted contrast and T1 mapping with low B1+ sensitivity using the FLAWS sequence at 7T. *Magn Reson In Med* 2020.
 
 ## Aknowledgements
 
