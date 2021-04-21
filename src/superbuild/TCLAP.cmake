@@ -2,7 +2,7 @@ set (proj TCLAP)
 
 set (location "")
 if (NOT DEFINED ${proj}_SRC_DIR)
-  set(location URL http://vorboss.dl.sourceforge.net/project/tclap/tclap-1.2.1.tar.gz)
+  set(location URL https://sourceforge.net/projects/tclap/files/tclap-1.2.4.tar.gz)
 endif()
 
 ExternalProject_Add(${proj}
