@@ -36,7 +36,7 @@ namespace flaws
 	m_nbExAfter(0),
 	m_Alpha1Rad(0),
 	m_Alpha2Rad(0),
-	m_invEff(0.96),
+	m_invEff(1),
 	m_Alpha1b(0),
 	m_Alpha2b(0),	
 	m_InversionTime1b(0),

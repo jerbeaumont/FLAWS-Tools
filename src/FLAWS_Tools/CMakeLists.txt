@@ -125,3 +125,7 @@ endif(EXISTS ${CMAKE_SOURCE_DIR}/cmake/${PROJECT_NAME}Config.cmake.in)
 if (BUILD_MODULE_FLAWS-SEQUENCE)
   add_subdirectory(flaws-sequence)
 endif()
+
+if (BUILD_MODULE_SEQUENCE-SIMULATION)
+  add_subdirectory(sequence-simulation)
+endif()
