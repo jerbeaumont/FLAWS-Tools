@@ -13,7 +13,7 @@ set(CMAKE_MODULE_PATH
   ${CMAKE_MODULE_PATH}
   )
 
-set (CMAKE_CXX_STANDARD 14)
+set (CMAKE_CXX_STANDARD 20)
 
 option(BUILD_SHARED_LIBS "Build shared libraries" ON)
 option(BUILD_FLAWS_TOOLS_TOOLS "Build FLAWS_TOOLS tools" ON)
