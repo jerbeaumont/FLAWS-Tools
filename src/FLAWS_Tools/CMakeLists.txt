@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.1.0)
+cmake_minimum_required(VERSION 4.1.1)
 
 cmake_policy(SET CMP0048 NEW)
 project(FLAWS_TOOLS VERSION 1.0)
